@@ -3,7 +3,7 @@
 #include <cstdint>
 #include <klog/klog.h>
 #include <span>
-namespace drivers::ps2
+namespace drivers::keyboard::ps2
 {
   namespace {
   constexpr auto TRANSLATION_TABLE_SIZE = 128;

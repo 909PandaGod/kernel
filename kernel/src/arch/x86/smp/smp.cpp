@@ -183,7 +183,7 @@ namespace smp
                     +[](std::uint64_t arg) {
                         klog::log("I got an argument and I don't know what it's for but here it is: %lu", arg);
 
-                        drivers::keyboard::poll_keystroke();
+                        drivers::keyboard::ps2::poll_keystroke();
                     },
                     0);
             }
